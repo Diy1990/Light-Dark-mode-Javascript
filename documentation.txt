@@ -1,0 +1,174 @@
+/* Ways to print messages in javascript
+
+
+console.log("Mi mensaje de Java Script")
+console.error("Could nto connecte to data base")
+console.warn("You must enter your use and password to get access")
+*/
+
+/* Vairables and conts
+
+let = name2 = "Mayli"
+console.log(name2);
+
+const name3 = "Juan"
+console.log(name3);
+*/
+
+
+/* dynamically typed language no need to specify type of variable
+let algunaCosa = "Hello From JavaScript"
+console.log(algunaCosa);
+
+algunaCosa = 33
+console.log(algunaCosa);
+
+algunaCosa = "sandia"
+console.log(algunaCosa);
+
+algunaCosa = true
+console.log(algunaCosa);
+
+algunaCosa = null
+console.log(algunaCosa);
+
+algunaCosa = undefined
+console.log(algunaCosa);
+*/
+
+/* NORMAL FORM FOR FUNCTIONS
+
+ function printAMessage(){
+
+  console.log("hello from my function that prints a message");
+ }
+
+ // CONST WAY FOR FUNCTIONS 
+
+ const printAMessage2 = function (){
+  console.log("Hello from my const funcion");
+ }
+
+ // ARROW FUNCTIONS 
+
+ const printAMessage3 = () => {
+  console.log("Hello from my arrow function");
+ }
+
+
+ const add = (a, b) => {
+  return a + b 
+
+
+ }
+ console.log(add(5,5))
+ // CONCATENATION WAYS 
+ console.log("la suma de 2 numeros es igual a" + add (5,5) );
+ console.log("la suma de 2 numeros es igual a" , add (5,5) );
+ console.log(`la suma de 2 numeros es igual a ${add(5,5)} `);
+
+
+
+ printAMessage()
+ printAMessage2()
+ printAMessage3()
+ add()
+*/
+
+/*
+const drinksList = ['🍻','🥤','🍸','🥃',]
+console.log(drinksList);
+
+// ARRAYS METHODS
+
+//ADD AN ELEMENT
+drinksList.push('beer')
+console.log(drinksList);
+
+//DELETE AN ELEMENT
+drinksList.pop()
+console.log(drinksList);
+// count the lenght of the array 
+console.log(`There are ${drinksList.length} drinks in your array `);
+// select specific number in the array
+console.log(`YOU HAVE SELECTED DRINK ${drinksList[2]}`);
+// exchange item
+drinksList[1] = '🥤'
+console.log(drinksList);
+// delete from array 
+delete drinksList[0]
+console.log(drinksList);
+// maping manually 
+for (let i = 0; i < drinksList.length; i++ ){
+  console.log(drinksList[i]);
+}
+// using for each
+drinksList.forEach(drink => {
+console.log(drink)
+});
+// using .map 
+drinksList.map((drink) => {
+  console.log(drink)
+});
+*/
+
+
+//OBJECTS in java script
+/*
+const myObject = {
+  names: 'Leonardo Alvarenga',
+  age: 23,
+  email: 'leeo.av@live.com',
+  profession: 'Fullstack Developer'
+
+}
+console.log(myObject)
+// PRINT JUST SOME FROM THE OBJECT
+console.log(myObject.name)
+
+
+// DESTRCUTURING
+
+const {names, profession} = myObject
+
+console.log("El nombre es", names);
+console.log("La profesion es: "+profession);
+*/
+/*
+const myObject = {
+  names: 'Leonardo Alvarenga',
+  age: 23,
+  email: 'leeo.av@live.com',
+  profession: 'Fullstack Developer'
+
+}
+const person = [
+  {
+  names: 'Sofia Alvarenga',
+  age: 5,
+  email: 'leeo.av@live.com',
+  profession: 'Student'
+
+},
+ {
+  names: 'Maily Alvarenga',
+  age: 35,
+  email: 'leeo.av@live.com',
+  profession: 'business women'
+
+},
+{  names: 'Leo Alvarenga',
+age: 35,
+email: 'leeo.av@live.com',
+profession: 'Student'
+}
+]
+
+console.log(person[1].names);
+
+person.map((people) => {
+  console.log(people.names);
+  console.log(people.profession);
+})
+
+*/
